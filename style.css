@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(45deg, #FF6B6B, #FFD93D);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+header .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header .header-content p {
+    font-size: 1.5rem;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD93D;
+}
+
+/* Section Styling */
+section {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Portfolio Section */
+.gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials */
+.testimonials blockquote {
+    font-style: italic;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #FFD93D;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #FF6B6B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #FFD93D;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 4rem;
+}
